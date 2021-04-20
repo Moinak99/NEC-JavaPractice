@@ -1,4 +1,4 @@
-package basics;
+package sample_programs;
 
 abstract class AbstractClassExample {
 

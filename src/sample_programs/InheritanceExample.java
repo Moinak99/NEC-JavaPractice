@@ -1,4 +1,4 @@
-package basics;
+package sample_programs;
 
 //Single inheritance
  class InheritanceDemoParent {

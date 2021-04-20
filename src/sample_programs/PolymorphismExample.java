@@ -1,4 +1,4 @@
-package basics;
+package sample_programs;
 //method overloading
 public class PolymorphismExample {
 

@@ -1,4 +1,4 @@
-package basics;
+package sample_programs;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
