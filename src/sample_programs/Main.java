@@ -39,7 +39,10 @@ public static void main(String[] args) {
 			s.setName("Moinak");  
 			System.out.println("Student NAme is "+s.getName());  
 			
-			
+			try {
+				UserDefinedExc.ValidateString("hello");
+			}
+			catch(Exception e) {System.out.println(e.getMessage());}
 	}
 }
 

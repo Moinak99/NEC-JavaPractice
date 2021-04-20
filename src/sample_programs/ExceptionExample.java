@@ -13,3 +13,16 @@ public class ExceptionExample {
 		}
 	}
 }
+
+class UserDefinedExc{
+	static void ValidateString(String str)throws UserDefinedException {
+	
+		if(str == "hello") {
+			throw new UserDefinedException("User Defined Exception Done!");
+		}
+		
+		else {
+			System.out.println("No exception");
+		}
+	}
+}
