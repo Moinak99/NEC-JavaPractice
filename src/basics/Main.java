@@ -1,15 +1,7 @@
 package basics;
 public class Main {
 public static void main(String[] args) {
-	//collections
-		Collections obj = new Collections();
-		obj.ArrayListDemo();
-		obj.LinkedListDemo();
-		obj.VectorDemo();
-		obj.HashMapDemo();
-		obj.HashSetDemo();
-		obj.LinkedHashSetDemo();
-		
+
 	//Polymorphism
 		//method overloading
 			PolymorphismExample obj1 = new PolymorphismExample();
@@ -22,6 +14,22 @@ public static void main(String[] args) {
 		//Single inheritance
 			InteritanceChild inh = new InteritanceChild();
 			inh.StudentDetails2();
+		//Hierarchical Inheritance
+			
+	//Collections
+			Collections obj = new Collections();
+			obj.ArrayListDemo();
+			obj.LinkedListDemo();
+			obj.VectorDemo();
+			obj.HashMapDemo();
+			obj.HashSetDemo();
+			obj.LinkedHashSetDemo();
+			
+	//Exception
+			ExceptionExample exobj = new ExceptionExample();
+			exobj.Division(10, 5);
+			
+			
 			
 	}
 }
