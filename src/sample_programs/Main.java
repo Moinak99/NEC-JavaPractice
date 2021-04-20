@@ -38,11 +38,13 @@ public static void main(String[] args) {
 			EncaptulationExamples s=new EncaptulationExamples();  
 			s.setName("Moinak");  
 			System.out.println("Student NAme is "+s.getName());  
-			
+	//User Defined Exception	
 			try {
 				UserDefinedExc.ValidateString("hello");
 			}
-			catch(Exception e) {System.out.println(e.getMessage());}
+			catch(Exception e) {
+				System.out.println(e.getMessage());
+				}
 	}
 }
 

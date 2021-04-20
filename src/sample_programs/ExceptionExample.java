@@ -1,5 +1,6 @@
 package sample_programs;
 
+// divide by zero exception
 public class ExceptionExample {
 
 	public void Division(int a ,int b) {
@@ -14,6 +15,7 @@ public class ExceptionExample {
 	}
 }
 
+//user defined exception
 class UserDefinedExc{
 	static void ValidateString(String str)throws UserDefinedException {
 	
