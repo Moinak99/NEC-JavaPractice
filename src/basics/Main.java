@@ -27,8 +27,17 @@ public static void main(String[] args) {
 			
 	//Exception
 			ExceptionExample exobj = new ExceptionExample();
-			exobj.Division(10, 5);
+			exobj.Division(10, 0);
 			
+	//Abstract Class
+			AbstractClassExample absobj = new MyClass();
+			absobj.method1();
+			absobj.method2();
+			
+	//Encaptulation
+			EncaptulationExamples s=new EncaptulationExamples();  
+			s.setName("Moinak");  
+			System.out.println("Student NAme is "+s.getName());  
 			
 			
 	}
