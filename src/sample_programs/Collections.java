@@ -107,10 +107,10 @@ public class Collections {
 	
 	public void LinkedTreeSetDemo() {
 		TreeSet<String> al=new TreeSet<String>();  
-		  al.add("Ravi");  
-		  al.add("Vijay");  
-		  al.add("Ravi");  
-		  al.add("Ajay");  
+		  al.add("a");  
+		  al.add("b");  
+		  al.add("c");  
+		  al.add("d");  
 
 		  Iterator<String> itr=al.iterator();  
 		  while(itr.hasNext()){  
