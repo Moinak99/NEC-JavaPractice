@@ -14,11 +14,10 @@ package sample_programs;
  class InteritanceChild extends InheritanceDemoParent{
 	 String studentName = "Moinak";
 	 String address = "Delhi";
-	 public void StudentDetails2() {
+	 public void StudentDetails2() 
+	 {
 		 System.out.println("Student Name:"+studentName+" Roll Number:"+rollNumber+" address:"+address);
 	 }
-	 
-	
  }
  
  //Hierarchical Inheritance

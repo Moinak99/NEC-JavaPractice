@@ -1,4 +1,9 @@
 package sample_programs;
+
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+
 public class Main {
 public static void main(String[] args) {
 
@@ -45,7 +50,33 @@ public static void main(String[] args) {
 			catch(Exception e) {
 				System.out.println(e.getMessage());
 				}
+			
+			List<Integer> alist = Arrays.asList(1,2,3);
+			//External Loop Iteration
+			
+				//normal forloop
+				for(int i=0 ;i<alist.size();i++) {
+					System.out.println(alist.get(i));
+				}
+				// Using Iterator
+				Iterator<Integer> i = alist.iterator();
+				while(i.hasNext()) {
+					System.out.println(i.next());
+				}
+				//Using Advanced For loop
+				for(int i1: alist) {
+					System.out.println(i1);
+				}
+				
+			//Internal Loop Iteration (stream api)
+				alist.forEach((i2)->
+					System.out.println(i2)
+				);
+
+			
 	}
+
+
 }
 
 
